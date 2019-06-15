@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 2, Errors: 0, Skipped: 13, Time elapsed: 29.579 sec <<< FAILURE! - in TestSuite
+setUps(com.shiva.qa.testcases.mercuryLaunchPageTest)  Time elapsed: 15.119 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+permission denied
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+	at com.shiva.qa.testcases.mercuryLaunchPageTest.setUps(mercuryLaunchPageTest.java:33)
+
+setUps(com.shiva.qa.testcases.mercuryRegistrationPageTest)  Time elapsed: 28.907 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+permission denied
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+	at com.shiva.qa.testcases.mercuryRegistrationPageTest.setUps(mercuryRegistrationPageTest.java:29)
+

@@ -1,0 +1,7 @@
+com\shiva\qa\testcases\mercuryRegistrationPageTest.class
+com\shiva\qa\testcases\mercuryLaunchPageTest.class
+Pages\LaunchApplicationPageFacotry.class
+Pages\openApplicationPageFacotry.class
+Pages\RegistrationPage.class
+TestCases\LaunchingApplication.class
+TestCases\PilotRunnerClass.class

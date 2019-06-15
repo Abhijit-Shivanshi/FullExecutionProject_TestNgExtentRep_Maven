@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Shivanya full suit]">
+  <listeners>
+    <listener class-name="com.shiva.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="com.shiva.qa.testcases.mercuryRegistrationPageTest">
+        <methods>
+          <include name="checkEnterStatePCUserName"/>
+          <include name="tearDown"/>
+          <include name="checkEnterFirstNameLastNamePhone"/>
+          <include name="setUps"/>
+          <include name="checkEnterEmailAddressCity"/>
+        </methods>
+      </class> <!-- com.shiva.qa.testcases.mercuryRegistrationPageTest -->
+      <class name="com.shiva.qa.testcases.mercuryLaunchPageTest">
+        <methods>
+          <include name="setUps"/>
+          <include name="checkTitleOfPage"/>
+          <include name="checkUnserNameEnter"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.shiva.qa.testcases.mercuryLaunchPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Shivanya full suit] -->
